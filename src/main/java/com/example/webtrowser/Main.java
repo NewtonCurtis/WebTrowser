@@ -5,15 +5,10 @@ package com.example.webtrowser;
 /********************************************************************************************************
 
 
- This JavaFX Application was written in Java by Younès B.
- Use is subject to license terms. Copyright (c) TTG Corporation.
- WebTrowser is a free software, but when you use it, you haven't to go on pornographic websites, playboys,
- darknet, and illegal websites.
+ This JavaFX Application was written in Java by : PythonEagle on GitHub.
+ Use is subject to license terms. Copyright (c) PythonEagle.
+ WebTrowser is a free software.
 
- A note from the developer : On this web browser, we don't write the history, but it's not a reason to see
- bad things on Internet. When you want to contact us please write an email to : bendimerad.younes@gmx.de.
-
- This app was called WebTrowser, because the T of TTG is the first letter of the name of our enterprise.
  This is WebTrowser v1.0. Enjoy surfing on Internet!
 
 
@@ -61,11 +56,11 @@ public class Main extends Application {
         Button reload = new Button("Reload");
         reload.translateXProperty().set(30);
         reload.translateYProperty().set(0);
+            }
+        });
         reload.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
                 engine.reload();
-            }
-        });
 
         Button prev = new Button("←");
         prev.translateXProperty().set(85);
@@ -187,15 +182,9 @@ public class Main extends Application {
             public void handle(ActionEvent event) {
 
                 Stage aboutstage = new Stage();
-                Label description = new Label("This JavaFX Application was written in Java by Younès B.\n" +
-                        "Use is subject to license terms. Copyright © TTG Corporation.\n" +
-                        "WebTrowser is a free software, but when you use it, you haven't to go on pornographic websites, playboys,\n" +
-                        "darknet, and illegal websites.\n" +
-                        "\n" +
-                        "A note from the developer : On this web browser, we don't write the history, but it's not a reason to see\n" +
-                        "bad things on Internet. When you want to contact us please write an email to : bendimerad.younes@gmx.de.\n" +
-                        "\n" +
-                        "This app was called WebTrowser, because the T of TTG is the first letter of the name of our enterprise.\n" +
+                Label description = new Label("This JavaFX Application was written in Java by : PythonEagle on GitHub.\n" +
+                        "Use is subject to license terms. Copyright © PythonEagle.\n" +
+                        "WebTrowser is a free software.\n" +
                         "This is WebTrowser v1.0. Enjoy surfing on Internet!");
                 description.translateXProperty().set(0);
                 description.translateYProperty().set(0);
