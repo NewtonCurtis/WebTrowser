@@ -5,10 +5,7 @@ package com.example.webtrowser;
 /********************************************************************************************************
 
 
- This JavaFX Application was written in Java by : PythonEagle on GitHub.
- Use is subject to license terms. Copyright (c) PythonEagle.
- WebTrowser is a free software.
-
+ This JavaFX Application was written in Java by Curtis Newton.
  This is WebTrowser v1.0. Enjoy surfing on Internet!
 
 
